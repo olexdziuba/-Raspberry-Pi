@@ -1,7 +1,7 @@
 # Installation et configuration Pi Hole sur Raspberry Pi
 
 Pi Hole vous permet de bloquer la publicité et le pistage sur internet (trackers) au niveau DNS. Par exemple, environ 43% du trafic est bloqué sur mon réseau domestique. Même une partie  de la publicité YouTube sur un téléviseur intelligent est bloquée, mais pas beaucoup car le blocage au niveau DNS a ses limites.
-.
+
 
  <img src="/images/pihole_img12.png">
 
@@ -48,26 +48,26 @@ La fenêtre suivante vous propose de soutenir financièrement le projet.
 
 <img src="/images/pihole_img20.png">
 
+
 Ici il faut accepter la configuration de l’adresse IP statique:
 
  
-
  <img src="/images/pihole_img10.png">
 
-La prochaine étape est le choix du fournisseur  DNS . J’utilise Cloudflare, parce qu’il est[ plus
+La prochaine étape est le choix du fournisseur DNS. J’utilise Cloudflare, parce qu’il est[ plus
 rapide](https://medium.com/@nykolas.z/dns-resolvers-performance-compared-cloudflare-x-google-x-quad9-x-opendns-149e803734e5) que les autres.
 
  <img src="/images/pihole_img11.png">
 
-Prochaine étape: le choix du block listé. Vous devez tout sélectionner car c'est le niveau minimum de blocage. Ensuite, nous ajouterons plus de blocks listés.
+La prochaine étape: le choix du block listé. Vous devez tout sélectionner car c'est le niveau minimum de blocage. Ensuite, nous ajouterons plus de blocks listés.
 
  <img src="/images/pihole_img7.png">
 
-Il faut choisir IPV4 et IPV6
+Il faut choisir IPV4 et IPV6.
 
  <img src="/images/pihole_img5.png">
 
-Après Il  faut accepter l’adresse IP statique:
+Après il faut accepter l’adresse IP statique.
 
  <img src="/images/pihole_img9.png">
 
@@ -75,23 +75,23 @@ Après Il  faut accepter l’adresse IP statique:
 
  <img src="/images/pihole_img15.png">
 
-Il faut installer l’interface web admin  pour accéder à partir d'un navigateur Web
+Il faut installer l’interface web admin pour accéder à partir d'un navigateur Web.
 
  <img src="/images/pihole_img19.png">
 
-On accepte aussi l’installation du serveur web pour avoir accès à l’interface  web à partir d'un navigateur Web
+On accepte aussi l’installation du serveur web pour avoir accès à l’interface web à partir d'un navigateur Web.
 
  <img src="/images/pihole_img18.png">
 
-Dans la prochaine étape on choisit l’acceptation d’écriture  log file. Si on utilise Raspberry pi avec micro SD carte, c’est préférable de choisir “OFF”, sinon un écrasement fréquent de la carte mémoire réduira sa durée de vie.
+Dans la prochaine étape on choisit l’acceptation d’écriture log file. Si on utilise Raspberry pi avec micro SD carte, c’est préférable de choisir “OFF”, sinon un écrasement fréquent de la carte mémoire réduira sa durée de vie.
 
  <img src="/images/pihole_img2.png">
 
-Dans la prochaine étape je choisis Anonymus mode
+Dans la prochaine étape je choisis Anonymus mode.
 
  <img src="/images/pihole_img17.png">
 
-Finalement, l’installation finie. Pi hole montre l’adresse IP, l’accès à  l’interface  web et mot de passe. Il faut copier et sauvegarder cette information.
+Finalement, l’installation finie. Pi hole montre l’adresse IP, l’accès à l’interface web et mot de passe. Il faut copier et sauvegarder cette information.
 
  <img src="/images/pihole_img6.png">
 
@@ -104,8 +104,7 @@ L'installation initiale ne fournit que le blocage des publicités de base. Si vo
 J'utilise les listes que j'ai trouvées sur GitHub
 [GoodbyeAds - World of Ads Free Internet](https://github.com/jerryn70/GoodbyeAds)
 
-Pour ajouter une nouvelle blocklist il faut copier l'adresse sur list en
-format txt, par exemple ici:
+Pour ajouter une nouvelle blocklist il faut copier l'adresse sur list en format txt, par exemple ici:
 
  <img src="/images/pihole_img14.png">
 
