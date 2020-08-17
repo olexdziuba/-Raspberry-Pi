@@ -14,7 +14,7 @@ Configuration:
 -   Raspberry Pi connecté par un câble à votre routeur (la connexion est plus stable que le wifi, peut être aurez vous besoin d’un adaptateur USB-LAN)
 -   installation minimale raspbian
 -   connection ssh
--    IP: 192.168.0.11
+-   IP: 192.168.0.11
 
 Avant l’installation il faut configurer l’adresse IP. Il est préférable de choisir une adresse IP parmi les adresses réservées comme statiques pour ne pas avoir  de conflits à l'avenir.
 
@@ -55,7 +55,7 @@ Ici il faut accepter la configuration de l’adresse IP statique:
  <img src="/images/pihole_img10.png">
 
 La prochaine étape est le choix du fournisseur  DNS . J’utilise Cloudflare, parce qu’il est[ plus
-rapide](https://medium.com/@nykolas.z/dns-resolvers-performance-compared-cloudflare-x-google-x-quad9-x-opendns-149e803734e5&sa=D&ust=1597681316391000&usg=AOvVaw3v7XWIFmwNDYmpFQ0hl8Ud) que les autres.
+rapide](https://medium.com/@nykolas.z/dns-resolvers-performance-compared-cloudflare-x-google-x-quad9-x-opendns-149e803734e5) que les autres.
 
  <img src="/images/pihole_img11.png">
 
@@ -102,7 +102,7 @@ Après vous devrez fournir l'adresse IP de votre serveur Pi-Hole à la place des
 L'installation initiale ne fournit que le blocage des publicités de base. Si vous souhaitez bloquer plus d'annonces, vous devez ajouter d'autres listes de blocage. Ici, vous devez faire attention car vous pouvez perdre l'accès à de nombreux sites nécessaires :)
 
 J'utilise les listes que j'ai trouvées sur GitHub
-[https://github.com/jerryn70/GoodbyeAds](https://github.com/jerryn70/GoodbyeAds&sa=D&ust=1597681316397000&usg=AOvVaw2PjJlM6DWGnMW8wjVfQqL2)
+[GoodbyeAds - World of Ads Free Internet](https://github.com/jerryn70/GoodbyeAds)
 
 Pour ajouter une nouvelle blocklist il faut copier l'adresse sur list en
 format txt, par exemple ici:
@@ -117,7 +117,8 @@ Si vous devez exclure un site de blocage, vous pouvez l'ajouter à Whitelist.
 
 À mon avis, le blocage des publicités est un jeu de chat et de souris :)
 
-->Bonne chance!<- 
+Bonne chance!
+
 
 ## Quelques liens pour aller plus loin avec Pi-hole et mes sources d’inspiration:
 
