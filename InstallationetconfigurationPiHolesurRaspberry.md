@@ -99,13 +99,10 @@ Après vous devrez fournir l'adresse IP de votre serveur Pi-Hole à la place des
 
 ## Ajouter plus de blocks lists
 
-L'installation initiale ne fournit que le blocage des publicités de
-base. Si vous souhaitez bloquer plus d'annonces, vous devez ajouter
-d'autres listes de blocage. Ici, vous devez faire attention car vous
-pouvez perdre l'accès à de nombreux sites nécessaires :)
+L'installation initiale ne fournit que le blocage des publicités de base. Si vous souhaitez bloquer plus d'annonces, vous devez ajouter d'autres listes de blocage. Ici, vous devez faire attention car vous pouvez perdre l'accès à de nombreux sites nécessaires :)
 
 J'utilise les listes que j'ai trouvées sur GitHub
-[https://github.com/jerryn70/GoodbyeAds](https://www.google.com/url?q=https://github.com/jerryn70/GoodbyeAds&sa=D&ust=1597681316397000&usg=AOvVaw2PjJlM6DWGnMW8wjVfQqL2)
+[https://github.com/jerryn70/GoodbyeAds](https://github.com/jerryn70/GoodbyeAds&sa=D&ust=1597681316397000&usg=AOvVaw2PjJlM6DWGnMW8wjVfQqL2)
 
 Pour ajouter une nouvelle blocklist il faut copier l'adresse sur list en
 format txt, par exemple ici:
@@ -124,17 +121,17 @@ Bonne chance!
 
 ## Quelques liens pour aller plus loin avec Pi-hole et mes sources d’inspiration:
 
-[https://docs.pi-hole.net/core/pihole-command/](https://www.google.com/url?q=https://docs.pi-hole.net/core/pihole-command/&sa=D&ust=1597681316399000&usg=AOvVaw2B-q77qjukCTAw-chOqC5v)
+[https://docs.pi-hole.net/core/pihole-command/](https://docs.pi-hole.net/core/pihole-command/&sa=D&ust=1597681316399000&usg=AOvVaw2B-q77qjukCTAw-chOqC5v)
 
-[https://github.com/Prowler2/PiHole](https://www.google.com/url?q=https://github.com/Prowler2/PiHole&sa=D&ust=1597681316400000&usg=AOvVaw0e1yugyHwKPLLytm07M8L2)
+[https://github.com/Prowler2/PiHole](https://github.com/Prowler2/PiHole&sa=D&ust=1597681316400000&usg=AOvVaw0e1yugyHwKPLLytm07M8L2)
 
-[https://www.smarthomebeginner.com/pi-hole-setup-guide/](https://www.google.com/url?q=https://www.smarthomebeginner.com/pi-hole-setup-guide/&sa=D&ust=1597681316400000&usg=AOvVaw0Ljqj5hPoE8hmKnKa1hs9P)
+[https://www.smarthomebeginner.com/pi-hole-setup-guide/](https://www.smarthomebeginner.com/pi-hole-setup-guide/&sa=D&ust=1597681316400000&usg=AOvVaw0Ljqj5hPoE8hmKnKa1hs9P)
 
-[https://github.com/pi-hole/pi-hole/\#one-step-automated-install](https://www.google.com/url?q=https://github.com/pi-hole/pi-hole/%23one-step-automated-install&sa=D&ust=1597681316401000&usg=AOvVaw1DKCmXF5oMQt3SvBr0uFyy)
+[https://github.com/pi-hole/pi-hole/\#one-step-automated-install](https://github.com/pi-hole/pi-hole/%23one-step-automated-install&sa=D&ust=1597681316401000&usg=AOvVaw1DKCmXF5oMQt3SvBr0uFyy)
 
-[https://github.com/jerryn70/GoodbyeAds](https://www.google.com/url?q=https://github.com/jerryn70/GoodbyeAds&sa=D&ust=1597681316401000&usg=AOvVaw1JNbgHfzIl2aA98QoSamHZ)
+[https://github.com/jerryn70/GoodbyeAds](https://github.com/jerryn70/GoodbyeAds&sa=D&ust=1597681316401000&usg=AOvVaw1JNbgHfzIl2aA98QoSamHZ)
 
-[https://medium.com/@nykolas.z/dns-resolvers-performance-compared-cloudflare-x-google-x-quad9-x-opendns-149e803734e5](https://www.google.com/url?q=https://medium.com/@nykolas.z/dns-resolvers-performance-compared-cloudflare-x-google-x-quad9-x-opendns-149e803734e5&sa=D&ust=1597681316402000&usg=AOvVaw2T9ZE9Q7cHi8E2tFcHWnsf)
+[https://medium.com/@nykolas.z/dns-resolvers-performance-compared-cloudflare-x-google-x-quad9-x-opendns-149e803734e5](https://medium.com/@nykolas.z/dns-resolvers-performance-compared-cloudflare-x-google-x-quad9-x-opendns-149e803734e5&sa=D&ust=1597681316402000&usg=AOvVaw2T9ZE9Q7cHi8E2tFcHWnsf)
 
  
 
