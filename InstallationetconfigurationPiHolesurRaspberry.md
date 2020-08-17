@@ -1,11 +1,10 @@
-Installation et configuration Pi Hole sur Raspberry Pi
+# Installation et configuration Pi Hole sur Raspberry Pi
 
 Pi Hole vous permet de bloquer la publicité et le pistage sur internet
 (trackers) au niveau DNS. Par exemple, environ 43% du trafic est bloqué
 sur mon réseau domestique. Même une partie  de la publicité YouTube sur
 un téléviseur intelligent est bloquée, mais pas beaucoup car le blocage
 au niveau DNS a ses limites.
-
 .
 
  <img src="/images/pihole_img12.png">
@@ -29,20 +28,19 @@ Avant l’installation il faut configurer l’adresse IP. Il est préférable
 de choisir une adresse IP parmi les adresses réservées comme statiques
 pour ne pas avoir  de conflits à l'avenir.
 
-Installation Pi Hole
+## Installation Pi Hole
 
 Premièrement il faut  faire une mise à jour de votre système:
 
-sudo apt-get update -y
+'sudo apt-get update -y'
 
-sudo apt-get upgrade -y
+'sudo apt-get upgrade -y'
 
 Faire l'installation Pi-hole en utilisant:
 
-wget -O
-basic-install.sh[ ](https://www.google.com/url?q=https://install.pi-hole.net&sa=D&ust=1597681316388000&usg=AOvVaw06MZYLW1O8Z0tMksc-b72r)[https://install.pi-hole.net](https://www.google.com/url?q=https://install.pi-hole.net&sa=D&ust=1597681316389000&usg=AOvVaw3aixwQDRmSBqtDDaMcJKqW)
+'wget -O basic-install.sh https://install.pi-hole.net'
 
-sudo bash basic-install.sh
+'sudo bash basic-install.sh'
 
 OU
 
