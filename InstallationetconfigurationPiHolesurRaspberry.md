@@ -121,17 +121,17 @@ Bonne chance!
 
 ## Quelques liens pour aller plus loin avec Pi-hole et mes sources d’inspiration:
 
-[https://docs.pi-hole.net/core/pihole-command/](https://docs.pi-hole.net/core/pihole-command/&sa=D&ust=1597681316399000&usg=AOvVaw2B-q77qjukCTAw-chOqC5v)
+[The pihole command](https://docs.pi-hole.net/core/pihole-command/)
 
-[https://github.com/Prowler2/PiHole](https://github.com/Prowler2/PiHole&sa=D&ust=1597681316400000&usg=AOvVaw0e1yugyHwKPLLytm07M8L2)
+[Pi-Hole BlockLists](https://github.com/Prowler2/PiHole)
 
-[https://www.smarthomebeginner.com/pi-hole-setup-guide/](https://www.smarthomebeginner.com/pi-hole-setup-guide/&sa=D&ust=1597681316400000&usg=AOvVaw0Ljqj5hPoE8hmKnKa1hs9P)
+[Complete Pi Hole setup guide: Ad-free better internet in 15 minutes](https://www.smarthomebeginner.com/pi-hole-setup-guide/)
 
-[https://github.com/pi-hole/pi-hole/\#one-step-automated-install](https://github.com/pi-hole/pi-hole/%23one-step-automated-install&sa=D&ust=1597681316401000&usg=AOvVaw1DKCmXF5oMQt3SvBr0uFyy)
+[Pi-hole One-Step Automated Install](https://github.com/pi-hole/pi-hole/#one-step-automated-install)
 
-[https://github.com/jerryn70/GoodbyeAds](https://github.com/jerryn70/GoodbyeAds&sa=D&ust=1597681316401000&usg=AOvVaw1JNbgHfzIl2aA98QoSamHZ)
+[GoodbyeAds - World of Ads Free Internet](https://github.com/jerryn70/GoodbyeAds)
 
-[https://medium.com/@nykolas.z/dns-resolvers-performance-compared-cloudflare-x-google-x-quad9-x-opendns-149e803734e5](https://medium.com/@nykolas.z/dns-resolvers-performance-compared-cloudflare-x-google-x-quad9-x-opendns-149e803734e5&sa=D&ust=1597681316402000&usg=AOvVaw2T9ZE9Q7cHi8E2tFcHWnsf)
+[DNS Resolvers Performance compared: CloudFlare x Google x Quad9 x OpenDNS](https://medium.com/@nykolas.z/dns-resolvers-performance-compared-cloudflare-x-google-x-quad9-x-opendns-149e803734e5)
 
  
 
