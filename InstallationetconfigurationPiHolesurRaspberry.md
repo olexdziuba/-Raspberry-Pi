@@ -117,8 +117,9 @@ Si vous devez exclure un site de blocage, vous pouvez l'ajouter à Whitelist.
 
 À mon avis, le blocage des publicités est un jeu de chat et de souris :)
 
-<center>
- Bonne chance! </center>
+<center> 
+ Bonne chance! 
+</center>
 
 ## Quelques liens pour aller plus loin avec Pi-hole et mes sources d’inspiration:
 
