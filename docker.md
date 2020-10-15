@@ -14,5 +14,6 @@
 ex. for user *'pi'* - the default user in Raspbian: *sudo usermod -aG docker pi*
 
 ### Check docker version / info
-*docker version*
+*docker version* 
+
 *docker info*
