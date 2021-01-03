@@ -1,4 +1,5 @@
 version: '2'
+
 services:
 	db:
 		image: mysql:5.7
@@ -7,9 +8,9 @@ services:
 		restart: always
 		environment:
 			MYSQL_ROOT_PASSWORD: wpdbpassword
-			MYSQL_DATABASE: wordpresspassword
-			МYSQL_USЕR: wordpresspassword
-			MYSQL_PASSWORD: wordpresspassword
+			MYSQL_DATABASE: wordpress
+			МYSQL_USЕR: wordpress
+			MYSQL_PASSWORD: wordpress
 	wordpress:
 		depends_on:
 			- db
@@ -19,7 +20,7 @@ services:
 		restart: always
 		environment:
 			WORDPRESS_DB_HOST: db:3306
-			WORDPRESS_DB_USER: wordpresspassword
-			WORDPRESS_DB_PASSWORD: wordpresspassword
+			WORDPRESS_DB_USER: wordpress
+			WORDPRESS_DB_PASSWORD: wordpress
 volumes:
 	db_data:
