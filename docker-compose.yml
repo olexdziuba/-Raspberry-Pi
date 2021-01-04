@@ -46,15 +46,15 @@ services:
     networks:
       - app-network
 
-certbot:
-  depends_on:
-    - webserver
-  image: certbot/certbot
-  container_name: certbot
-  volumes:
-    - certbot-etc:/etc/letsencrypt
-    - wordpress:/var/www/html
-  command: certonly --webroot --webroot-path=/var/www/html --email sammy@example.com --agree-tos --no-eff-email --staging -d 192.168.0.8 -d www.192.168.0.8
+  certbot:
+    depends_on:
+      - webserver
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - wordpress:/var/www/html
+    command: certonly --webroot --webroot-path=/var/www/html --email sammy@example.com --agree-tos --no-eff-email --staging -d 192.168.0.8 -d www.192.168.0.8
 
 volumes:
   certbot-etc:
