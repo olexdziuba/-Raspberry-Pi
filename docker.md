@@ -17,3 +17,6 @@ ex. for user *'pi'* - the default user in Raspbian: *sudo usermod -aG docker pi*
 *docker version* 
 
 *docker info*
+
+### Install docker-compose
+sudo apt install -y docker-compose
