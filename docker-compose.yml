@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  db:
-    image: mysql:8.0
-    container_name: db
+  mariadb:
+    image: ghcr.io/linuxserver/mariadb
+    container_name: mariadb
     restart: unless-stopped
     env_file: .env
     environment:
@@ -16,7 +16,7 @@ services:
 
   wordpress:
     depends_on:
-      - db
+      - mariadb
     image: wordpress:5.1.1-fpm-alpine
     container_name: wordpress
     restart: unless-stopped
